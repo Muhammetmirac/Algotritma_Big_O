@@ -1,0 +1,5 @@
+selection ile insertion arasındaki kıyaslamada
+veri kümeleri büyükse inseertion fark atıyor.
+ancak veri kümeleri çok büyük değilse değerler birbirine yakın
+
+

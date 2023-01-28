@@ -3,7 +3,7 @@ package SelectionSort;
 public class SelectionSort {
 
     public static void  selectionSort(int arr[]){
-        int count=0;
+     //   int count=0;
         int min; // sağında kalan sayıların en
         //küçüğünün indexisi tutacağız
 
@@ -13,13 +13,13 @@ public class SelectionSort {
                 if(arr[j]<arr[min]) {
                     min = j;
                 }
-                count++;
+           //     count++;
             }
             // swap işlemi
             int temp = arr[i];
             arr[i]=arr[min];
             arr[min] = temp;
         }
-        System.out.println(count);
+      //  System.out.println(count);
     }
 }
